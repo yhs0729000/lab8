@@ -1,0 +1,26 @@
+Script started on 2017年03月20日 (週一) 22時31分04秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m g++ questionB.cpp
+
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m ./questionB.cpp
+bash: ./questionB.cpp: Permission denied
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m ./questionB
+key in number
+22
+11
+34
+17
+52
+26
+13
+40
+20
+10
+5
+16
+8
+4
+2
+1
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m 
+Script done on 2017年03月20日 (週一) 22時35分51秒
