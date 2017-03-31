@@ -1,0 +1,1 @@
+how i write lab2 cpp file is that assume a few variable to read all the coefficient, and apply it to the formula. Reapeat it for 6 time and we can  get the score of A and B. h file put all the calculate formula and cpp file put the read/output program.
