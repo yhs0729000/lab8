@@ -114,4 +114,7 @@ int main(){
 				lab2.calculate1();
 				outFile<<lab2.calculate()<<"\t"<<lab2.calculate1()<<endl;
 		
+	
+				return 0;
 }
+
