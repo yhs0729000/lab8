@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h>
 #include<string>
-
+#include "timer6.h"
 using namespace std;
 
 
@@ -11,18 +11,8 @@ class drawcard{
 
 
 public:
-	char set(){
 
-		for(int i=0;i<8;i++)
-		{	card[i]=i+1;}
-
-		
-	}
-	void printcard(){ cout<<card[6]<<card[4]<<card[3]<<card[1]<<card[5]<<card[0]<<card[2]<<card[7]<<endl; }
-
-
-private:
-	char card[8];
+	void printcard(){ cout<<7<<5<<4<<1<<6<<3<<8<<2<<endl; }
 
 
 
@@ -35,12 +25,13 @@ private:
 int main(){
 
 	char sec,mana,one,two,three,four,a;
+        drawcard draw;
 
-
+        draw.printcard();
 
 
 	const int row =25;
-	const int column = 55;
+ 	const int column = 55;
 
 	char map1[row][column];
 
@@ -72,7 +63,7 @@ int main(){
 		}
 
 
-		drawcard draw();
+		
 		return 0;
 
 
