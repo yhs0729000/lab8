@@ -5,30 +5,17 @@
 using namespace std;
 
 
-//抽卡排序//
-class drawcard{
-
-
-
-public:
-
-	void printcard(){ cout<<7<<""<<5<<""<<4<<""<<1<<""<<6<<""<<3<<""<<8<<""<<2<<endl; }
-
-
-
-
-};
-
 
 
 
 int main(){
 
+        cout<<"7"<<""<<"5"<<""<<"4"<<""<<"1"<<""<<"6"<<""<<"3"<<""<<"8"<<""<<"2"<<endl;
+
+
+
 	char sec,mana,one,two,three,four,a;
-        drawcard draw;
-
-        draw.printcard();
-
+       
 
 	const int row =22;
  	const int column = 52;
