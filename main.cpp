@@ -30,8 +30,8 @@ int main(){
         draw.printcard();
 
 
-	const int row =25;
- 	const int column = 55;
+	const int row =22;
+ 	const int column = 52;
 
 	char map1[row][column];
 
