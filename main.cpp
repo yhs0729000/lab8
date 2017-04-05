@@ -34,7 +34,7 @@ int main(){
         draw.printcard();
 
 while(true)
-{	char sec,mana,one,two,three,four,a;
+{	int sec,mana,one,two,three,four;
 
 
 	
@@ -67,7 +67,7 @@ while(true)
 			 }
 		}
 
-               cout<<string("1")+to_string(one)+ " 6 22"<<endl;
+               cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
 
 
 }
