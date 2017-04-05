@@ -16,7 +16,7 @@ class drawcard{
 
 public:
 
-	void printcard(){ cout<<"7 5 4 1 6 3 8 2"<<endl; }
+	void printcard(){ cout<<"3 4 7 1 8 6 2 5"<<endl; }
 
 
 
@@ -68,6 +68,8 @@ while(true)
 		}
 
                cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
+               cout<<0<<endl;
+
 
 
 }
