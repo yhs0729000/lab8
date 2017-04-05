@@ -23,18 +23,8 @@ public:
 
 };
 
-
-
-
-int main(){
-
-
-        drawcard draw;
-
-        draw.printcard();
-
-while(true)
-{	int sec,mana,one,two,three,four;
+      void u(){
+int sec,mana,one,two,three,four;
 
 
 	
@@ -66,12 +56,25 @@ while(true)
 				 cin.get(map2[i][j]);
 			 }
 		}
-
+ 
                cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
                cout<<0<<endl;
 
 
+}
 
+
+
+int main(){
+
+
+        drawcard draw;
+
+        draw.printcard();
+
+while(true)
+{	
+   u();
 }
 }
 		
