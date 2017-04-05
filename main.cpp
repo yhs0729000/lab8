@@ -62,8 +62,9 @@ while(true)
 		}
 
                cout<<string("1 ")<<" 5 23"<<endl;
+               cout<<0<<endl;
 		
-		return 0;
+		
 
 }
 }
