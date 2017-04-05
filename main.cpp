@@ -61,7 +61,7 @@ while(true)
 			 }
 		}
 
-               cout<<string("1")<<"5 23"<<endl;
+               cout<<string("1 ")<<"5 23"<<endl;
 		
 		return 0;
 
