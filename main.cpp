@@ -61,7 +61,7 @@ while(true)
 			 }
 		}
 
-               cout<<string("1")<<"15 15"<<endl;
+               cout<<string("1")<<"7 20"<<endl;
 		
 		return 0;
 
