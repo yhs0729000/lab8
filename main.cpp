@@ -37,12 +37,11 @@ while(true)
 {	char sec,mana,one,two,three,four,a;
 
 
-	const int row =25;
- 	const int column = 55;
+	
 
-	char map1[row][column];
+	char map1[22][52];
 
-	char map2[row][column];
+	char map2[22][52];
 
 	
 
@@ -70,8 +69,6 @@ while(true)
 
                cout<<string("1")+to_string(one)+ " 6 22"<<endl;
 
-		
-		return 0;
 
 }
 }
