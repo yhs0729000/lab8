@@ -5,20 +5,33 @@
 using namespace std;
 
 
+//抽卡排序//
+class drawcard{
+
+
+
+public:
+
+	void printcard(){ cout<<"7 5 4 1 6 3 8 2"<<endl; }
+
+
+
+
+};
+
 
 
 
 int main(){
+while(true)
+{	char sec,mana,one,two,three,four,a;
+        drawcard draw;
 
-        cout<<"7"<<""<<"5"<<""<<"4"<<""<<"1"<<""<<"6"<<""<<"3"<<""<<"8"<<""<<"2"<<endl;
+        draw.printcard();
 
 
-
-	char sec,mana,one,two,three,four,a;
-       
-
-	const int row =22;
- 	const int column = 52;
+	const int row =25;
+ 	const int column = 55;
 
 	char map1[row][column];
 
@@ -35,7 +48,7 @@ int main(){
 	         for(j=0;j<52;j++)
 			 {
 				 cin.get(map1[i][j]);
-				 cin.get(a);
+				 
 			
 			 }
 		}
@@ -45,15 +58,13 @@ int main(){
 	         for(j=0;j<52;j++)
 			 {
 				 cin.get(map2[i][j]);
-				  cin.get(a);
 			 }
 		}
 
-
+               cout<<string("1")<<"15 15"<<endl;
 		
 		return 0;
 
-
-
-
 }
+}
+		
