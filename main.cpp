@@ -12,7 +12,7 @@ class drawcard{
 
 public:
 
-	void printcard(){ cout<<"7 5 4 1 6 3 8 2"<<endl; }
+	void printcard(){ cout<<"3 4 7 1 8 6 2 5"<<endl; }
 
 
 
@@ -32,7 +32,7 @@ int main(){
 
 
 while(true)
-{	char sec,mana,one,two,three,four,a;
+{	char sec,mana,one=1,two,three,four,a;
        
 
 	const int row =25;
