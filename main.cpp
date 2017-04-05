@@ -6,19 +6,6 @@ using namespace std;
 
 
 //抽卡排序//
-class drawcard{
-
-
-
-public:
-
-	void printcard(){ cout<<"3 4 7 1 8 6 2 5"<<endl; }
-
-
-
-
-};
-
 
 
 
@@ -26,10 +13,8 @@ public:
 
 int main(){
 
- drawcard draw;
-
-        draw.printcard();
-
+  
+      cout<<"3 4 7 1 8 6 2 5"<<endl;
 
 while(true)
 {	char sec,mana,one=1,two,three,four,a;
