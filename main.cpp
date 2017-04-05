@@ -27,11 +27,14 @@ public:
 
 
 int main(){
-while(true)
-{	char sec,mana,one,two,three,four,a;
+
+
         drawcard draw;
 
         draw.printcard();
+
+while(true)
+{	char sec,mana,one,two,three,four,a;
 
 
 	const int row =25;
