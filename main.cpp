@@ -1,6 +1,7 @@
 #include<iostream>
-#include<stdio.h>
+
 #include<string>
+#include<cstdio>
 #include "timer6.h"
 using namespace std;
 
