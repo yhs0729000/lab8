@@ -10,21 +10,10 @@ string to_string(int val){
 	return string(str);
 }
 //抽卡排序//
-class drawcard{
 
-
-
-public:
-
-	void printcard(){ cout<<"3 4 7 1 8 6 2 5"<<endl; }
-
-
-
-
-};
 
       void u(){
-	      int sec,mana,one,two,three,four;
+	      int sec,mana,one=1,two,three,four;
               char a;
 
 	
@@ -58,7 +47,7 @@ public:
 			 }
 		}
  
-       cout<<1<<""<<string("1 ")+to_string(one)+ " 5 23"<<endl;
+       cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
                cout<<0<<endl;
 
 
@@ -68,10 +57,7 @@ public:
 
 int main(){
 
-
-        drawcard draw;
-
-        draw.printcard();
+cout<<"3 4 7 1 8 6 2 5"<<endl;
 
 while(true)
 {	
