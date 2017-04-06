@@ -58,7 +58,7 @@ public:
 			 }
 		}
  
-               cout<<1<<string("1 ")+to_string(one)+ " 5 23"<<endl;
+       cout<<1<<""<<string("1 ")+to_string(one)+ " 5 23"<<endl;
                cout<<0<<endl;
 
 
