@@ -31,20 +31,20 @@ string to_string(int val){
 		for(int i=0;i<22;i++)
 		{
 	         for(int j=0;j<52;j++)
-			 {
+			 
 				 cin.get(map1[i][j]);
 				 cin.get(a);
 			
-			 }
+			 
 		}
 
 		for(int i=0;i<22;i++)
 		{
 	         for(int j=0;j<52;j++)
-			 {
+			 
 				 cin.get(map2[i][j]);
                                  cin.get(a);
-			 }
+			 
 		}
  
        cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
