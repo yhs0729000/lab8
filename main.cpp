@@ -11,6 +11,13 @@ string to_string(int val){
 	sprintf(str,"%d",val);
 	return string(str);
 }
+
+class draw{
+    
+public:
+
+      void drawcard(){  cout<<"3 4 7 1 8 6 2 5"<<endl;}
+};
 //抽卡排序//
 
 
@@ -57,7 +64,8 @@ string to_string(int val){
 
 int main(){
 
-cout<<"3 4 7 1 8 6 2 5"<<endl;
+draw drew;
+drew.drawcard();
 
     while(true)
    {	
