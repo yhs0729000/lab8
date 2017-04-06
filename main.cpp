@@ -1,9 +1,11 @@
 #include<iostream>
-#include<stdio.h>
+#include<cstdio>
 #include<string>
 #include "timer6.h"
 using namespace std;
+	char map1[22][52];
 
+	char map2[22][52];
 string to_string(int val){
 	char str[10];
 	sprintf(str,"%d",val);
@@ -14,23 +16,21 @@ string to_string(int val){
 
       void u(){
 	      int sec,mana,one=1,two,three,four;
-              char a;
+	char a;
 
 	
 
-	char map1[22][52];
 
-	char map2[22][52];
 
 	
 
 	//讀map//
 	cin>>sec>>mana>>one>>two>>three>>four;
 
-	int i,j;
-		for(i=0;i<22;i++)
+	
+		for(int i=0;i<22;i++)
 		{
-	         for(j=0;j<52;j++)
+	         for(int j=0;j<52;j++)
 			 {
 				 cin.get(map1[i][j]);
 				 cin.get(a);
@@ -38,9 +38,9 @@ string to_string(int val){
 			 }
 		}
 
-		for(i=0;i<22;i++)
+		for(int i=0;i<22;i++)
 		{
-	         for(j=0;j<52;j++)
+	         for(int j=0;j<52;j++)
 			 {
 				 cin.get(map2[i][j]);
                                  cin.get(a);
@@ -48,7 +48,7 @@ string to_string(int val){
 		}
  
        cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
-               cout<<0<<endl;
+              cout<<0<<endl;
 
 
 }
@@ -59,9 +59,10 @@ int main(){
 
 cout<<"3 4 7 1 8 6 2 5"<<endl;
 
-while(true)
-{	
+    while(true)
+   {	
    u();
-}
+
+    }
 }
 		
