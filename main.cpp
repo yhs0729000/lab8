@@ -21,8 +21,18 @@ public:
 //抽卡排序//
 
 
-      void u(){
-	      int sec,mana,one=1,two,three,four;
+
+
+
+int main(){
+
+draw drew;
+drew.drawcard();
+
+    while(true)
+   {	
+   
+int sec,mana,one=1,two,three,four;
 	char a;
 
 	
@@ -57,19 +67,6 @@ public:
        cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
               cout<<0<<endl;
 
-
-}
-
-
-
-int main(){
-
-draw drew;
-drew.drawcard();
-
-    while(true)
-   {	
-   u();
 
     }
 }
