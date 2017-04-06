@@ -24,8 +24,8 @@ public:
 };
 
       void u(){
-int sec,mana,one,two,three,four;
-
+	      int sec,mana,one,two,three,four;
+              char a;
 
 	
 
@@ -44,7 +44,7 @@ int sec,mana,one,two,three,four;
 	         for(j=0;j<52;j++)
 			 {
 				 cin.get(map1[i][j]);
-				 
+				 cin.get(a);
 			
 			 }
 		}
@@ -54,6 +54,7 @@ int sec,mana,one,two,three,four;
 	         for(j=0;j<52;j++)
 			 {
 				 cin.get(map2[i][j]);
+                                 cin.get(a);
 			 }
 		}
  
