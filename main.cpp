@@ -16,7 +16,7 @@ class draw{
     
 public:
 
-      void drawcard(){  cout<<"7 9 8 2 6 5 4 1"<<endl;}
+      void drawcard(){  cout<<"7 2 8 3 6 5 4 1"<<endl;}
 };
 //抽卡排序//
 
@@ -65,9 +65,8 @@ int sec,mana,one=1,two,three,four;
 		}
  
        cout<<string("1 ")+to_string(one)+ " 5 23"<<endl;
-       cout<<string("2 ")+to_string(one)+ " 5 24"<<endl;
-       cout<<string("3 ")+to_string(one)+ " 17 24"<<endl;
-       cout<<string("4 ")+to_string(one)+ " 5 23"<<endl;
+       
+       cout<<string("4 ")+to_string(one)+ " 17 23"<<endl;
 
               cout<<0<<endl;
 
