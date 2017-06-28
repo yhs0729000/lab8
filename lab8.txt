@@ -1,0 +1,4 @@
+1.it's couldn't work because "throw" would immediately terminate the program 
+without doing code below.
+
+2.no.throw 3.0 would be catched by "catch(float)" and jump out of program.
